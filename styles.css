@@ -1,0 +1,72 @@
+
+header {
+       
+        padding: 10px;
+ 
+       }
+nav ul{
+       list-style: none;
+       
+
+       }
+nav ul li{
+          display: inline;
+          margin: 20px;
+          top: 50%;   
+           
+
+         }
+nav ul li a {
+            
+             text-decoration: none;  
+             color: white;  
+             background-color: black;
+             padding: 30px;  
+             border-radius: 30PX; 
+             margin: 20px;
+             position : relative;
+             cursor: pointer;
+             transition: color 0.25s;  
+             
+                
+
+            }
+nav ul li a:: after{
+           position: absolute;
+           content:"";
+           inset: 0;
+           scale: 1 ;
+           z-index: -1 ;
+           transition: 0.45s ;
+           
+          }
+a::hover{
+           color: blue;
+           }
+a:hover::after{
+                scale: 1 1 ;
+               }
+.hero{
+         text-align: center;
+         padding: 100px 20px;
+         backgroung-color: grey ;
+         text-size: 50px;
+
+         }
+.hero h1{
+         font-size: 50px;
+         font-family: italic;
+        }
+.hero p {
+         font-family: time-new-roman;
+        }
+
+.btn{
+      display: inline-block;
+      text-decoration: none;
+      background-color: pink;
+      color: black;
+      border-radius: 30px;
+      padding: 15px;
+
+     }

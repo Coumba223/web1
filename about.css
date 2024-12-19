@@ -1,0 +1,55 @@
+header {
+       
+        padding: 10px;
+ 
+       }
+nav ul{
+       list-style: none;
+
+       }
+nav ul li{
+          display: inline;
+          margin: 20px;
+          top: 50%;   
+           
+
+         }
+nav ul li a {
+            
+             text-decoration: none;  
+             color: white;  
+             background-color: black;
+             padding: 30px;  
+             border-radius: 30PX; 
+             margin: 20px;  
+             
+                
+
+            }
+* {
+    
+    box-sizing: border-box ;
+
+}
+
+.container {
+             display: flex;
+             overflow-x: scroll;
+             padding: 24px;
+             width: 300px;
+             height: 360px;
+             scroll-snap-type: x mandatory;
+             scroll-padding: 24px;
+             border-radius: 8px;
+             gap:12px;
+             margin: 2rem auto;
+             
+             border: 2px solid black ;
+    }
+
+.container .item {
+                  flex: 0 0 100%;
+                  padding: 24px;
+                  border-radius: 8px;
+                  scroll-snap-align: start;
+        }
